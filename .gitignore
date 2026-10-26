@@ -1,0 +1,22 @@
+# dependencies
+node_modules/
+
+# build output
+dist/
+*.tsbuildinfo
+
+# local environment — never commit credentials
+.env
+.env.local
+.env.*.local
+
+# editor / OS noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# test artefacts
+coverage/
+playwright-report/
+test-results/
